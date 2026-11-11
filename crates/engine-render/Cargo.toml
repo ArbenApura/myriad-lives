@@ -1,0 +1,12 @@
+[package]
+name = "engine-render"
+version = "0.1.0"
+description = "Rendering: indexed sprites (material and shade band per pixel), the palette lookup, the CPU rasteriser for headless PNG output and the wgpu renderer."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lints]
+workspace = true

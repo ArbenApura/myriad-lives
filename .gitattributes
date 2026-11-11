@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.ron text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+*.wgsl text eol=lf
+*.sh text eol=lf
+Cargo.lock text eol=lf
+*.png binary
+*.wav binary
+*.ogg binary

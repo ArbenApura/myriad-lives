@@ -1,0 +1,12 @@
+[package]
+name = "game-sim"
+version = "0.1.0"
+description = "The deterministic simulation core. Integer maths only; the same save and the same inputs always give the same state."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lints]
+workspace = true

@@ -1,0 +1,45 @@
+# Rust
+target/
+
+# Runtime data and secrets: never in the repo (root-level scratch only; content folders such as crates/game-content/data/ stay tracked)
+/data/
+/out/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.pem
+*.key
+!tests/fixtures/*.pem
+!tests/fixtures/*.key
+server.toml
+.env
+.env.*
+!.env.example
+
+# Build and profiling leftovers
+*.log
+*.rs.bk
+*.pdb
+*.profraw
+perf.data*
+flamegraph.svg
+
+# Local agent setup (private, not part of the game)
+.claude
+.agents
+.mcp.json
+CLAUDE.md
+AGENTS.md
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Saves and settings (they live outside the repo; these catch strays)
+*.db-wal
+*.db-shm
+/worlds/
+settings.ron

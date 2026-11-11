@@ -1,0 +1,12 @@
+[package]
+name = "engine-ui"
+version = "0.1.0"
+description = "User interface: the pixel font, text layout and widgets drawn on the 480x270 grid."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lints]
+workspace = true

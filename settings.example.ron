@@ -1,0 +1,11 @@
+// Example settings for Myriad Lives.
+// On first run the game shows that no settings exist and writes them from this file to
+// %LOCALAPPDATA%\myriad-lives\config\settings.ron (on Linux, the XDG config folder).
+// The values here are the only defaults; a missing or broken setting is named at startup.
+(
+    master_volume: 80,
+    music_volume: 70,
+    effects_volume: 80,
+    gore: true,
+    window_scale: 3,
+)

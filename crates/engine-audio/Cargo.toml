@@ -1,0 +1,12 @@
+[package]
+name = "engine-audio"
+version = "0.1.0"
+description = "Audio: physically modelled instrument synthesis, score rendering, the mixer and offline WAV output."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lints]
+workspace = true

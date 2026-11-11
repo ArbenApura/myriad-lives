@@ -1,0 +1,12 @@
+[package]
+name = "game-worldgen"
+version = "0.1.0"
+description = "Seeded world generation: planets, land, history and local chunks, all in whole-number maths."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lints]
+workspace = true
